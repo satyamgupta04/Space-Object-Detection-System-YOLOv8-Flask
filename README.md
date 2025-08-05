@@ -1,4 +1,4 @@
-# Space-Object-Detection-System-YOLOv8-Flask
+# Space-Object-Detection-System-YOLOv8-Falcon Dataset
 Inspired by the safety and monitoring needs of ISRO and NASA missions
 
 Developed a real‑time Space Object Detection system designed to enhance astronaut safety aboard space stations. Using the state‑of‑the‑art YOLOv8 deep learning model, the project detects and labels critical equipment such as Fire Extinguishers, Oxygen Tanks, and Toolboxes with high accuracy, even under challenging conditions.
