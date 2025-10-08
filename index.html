@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🚀 Space Object Detection</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: url('https://room.eu.com/images/contents/issue32-private-space-stations-and-nasas-effort-to-re-invent-itself.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+
+      margin-top: 30px;
+      color: white;
+      /* Text color */
+      -webkit-text-stroke: 2px black;
+    }
+
+    p {
+      width: 80%;
+      margin: auto;
+      font-size: 1.1rem;
+      color: #dcdcdc;
+    }
+
+    .upload-box {
+      margin: 30px auto;
+      padding: 20px;
+      border: 2px solid #00e6ff;
+      border-radius: 15px;
+      width: 50%;
+      background: rgba(0, 0, 0, 0.6);
+      box-shadow: 0px 0px 20px #00e6ff;
+    }
+
+    input[type="file"] {
+      margin: 15px 0;
+    }
+
+    button {
+      background-color: #00e6ff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #0099cc;
+    }
+
+    .results {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .results img {
+      max-width: 400px;
+      border-radius: 12px;
+      border: 2px solid #00e6ff;
+      box-shadow: 0px 0px 20px #00e6ff;
+    }
+
+    .info-box {
+      width: 80%;
+      margin: 20px auto;
+      font-size: 1.1rem;
+      color: #dcdcdc;
+      background: rgba(0, 0, 0, 0.7);
+      /* black semi-transparent */
+      padding: 15px 20px;
+      border-radius: 12px;
+      /* rounded corners */
+      border: 2px solid #00e6ff;
+      /* glowing border */
+      box-shadow: 0px 0px 15px #00e6ff;
+    }
+
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>🚀 SpaceSafe-AI</h1>
+  <p class="info-box">
+    In space stations, quick access to critical equipment like Fire Extinguishers, Oxygen Tanks, and Toolboxes is vital for astronaut safety and mission success.
+Manual monitoring is difficult due to the complex and confined environment of a space station.
+Our AI system uses YOLOv8 to automatically detect and highlight essential equipment from images, ensuring safety and operational efficiency.
+  </p>
+
+  <div class="upload-box">
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" accept="image/*" required />
+      <br />
+      <button type="submit">Upload & Detect</button>
+    </form>
+  </div>
+
+  {% if uploaded_image and user_image %}
+  <div class="results">
+    <div>
+      <h3>Before</h3>
+      <img src="{{ uploaded_image }}" alt="Uploaded Image" />
+    </div>
+    <div>
+      <h3>After</h3>
+      <img src="{{ user_image }}" alt="Detected Image" />
+    </div>
+  </div>
+  {% endif %}
+
+  <footer>
+    Built with 💙 for Major project | Powered by YOLOv8
+  </footer>
+</body>
+
+</html>
