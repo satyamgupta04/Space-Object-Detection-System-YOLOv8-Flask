@@ -122,22 +122,22 @@ After uploading an image, the system returns:
 ---
 ##🔮 Future Improvements
 
-🚀 Integrate real-time video stream detection
-🛰️ Deploy on edge devices for spacecraft simulation
-📡 Extend dataset for orbital debris detection
-🧠 Replace YOLOv8 with YOLO-NAS / DETR for comparison
-☁️ Deploy on cloud (AWS / GCP) for scalable inference
-📱 Mobile-friendly detection interface
+-🚀 Integrate real-time video stream detection
+-🛰️ Deploy on edge devices for spacecraft simulation
+-📡 Extend dataset for orbital debris detection
+-🧠 Replace YOLOv8 with YOLO-NAS / DETR for comparison
+-☁️ Deploy on cloud (AWS / GCP) for scalable inference
+-📱 Mobile-friendly detection interface
 
 ⸻
 
 ##🏆 Key Highlights
 
-✔ Real-world inspired aerospace AI application
-✔ Built using state-of-the-art YOLOv8
-✔ Full-stack integration (Flask + Deep Learning)
-✔ Strong relevance to ISRO/NASA safety systems
-✔ Demonstrates production-level computer vision pipeline
+-Real-world inspired aerospace AI application
+- Built using state-of-the-art YOLOv8
+- Full-stack integration (Flask + Deep Learning)
+- Strong relevance to ISRO/NASA safety systems
+- Demonstrates production-level computer vision pipeline
 
 ⸻
 
