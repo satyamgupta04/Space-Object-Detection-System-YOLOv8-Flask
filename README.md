@@ -120,7 +120,7 @@ After uploading an image, the system returns:
 - 🎯 Confidence scores  
 
 ---
-##🔮 Future Improvements
+## 🔮 Future Improvements
 
 -🚀 Integrate real-time video stream detection
 -🛰️ Deploy on edge devices for spacecraft simulation
@@ -131,7 +131,7 @@ After uploading an image, the system returns:
 
 ⸻
 
-##🏆 Key Highlights
+## 🏆 Key Highlights
 
 -Real-world inspired aerospace AI application
 - Built using state-of-the-art YOLOv8
@@ -141,13 +141,13 @@ After uploading an image, the system returns:
 
 ⸻
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 Satyam Gupta
 🎓 B.Tech Final Year Student
 💡 AI/ML | Computer Vision | Deep Learning | DSA
 
-## ⚙️ How to Run
+##  How to Run
 
 ```bash
 # Clone repository
